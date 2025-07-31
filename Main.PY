@@ -5,8 +5,8 @@ import google.generativeai as genai
 import requests
 
 # --------------- CONFIGURATION ---------------
-GEMINI_API_KEY = "AIzaSyCCB2-Aovw6ObOGM5863S0muIVgSXRk8-U"
-SERPAPI_KEY = "0f9b94146c4a85667535fcfee72cc149343448ad9b463705cc48035531bacb1e"
+GEMINI_API_KEY = "GEMINI_API_KEY"
+SERPAPI_KEY = "SERPAPI_KEY"
 
 try:
     genai.configure(api_key=GEMINI_API_KEY)
